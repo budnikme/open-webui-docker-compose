@@ -30,4 +30,4 @@ Run these commands from the folder containing `docker-compose.yml`:
 - `docker compose ps` - Check status
 - `docker compose logs -f` - Check logs (optional)
 
-After the succesfull setup OpenWebUI will be available at https://your-domain.com/ 
+After the successful setup OpenWebUI will be available at https://your-domain.com/ 
