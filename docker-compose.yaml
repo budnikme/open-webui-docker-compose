@@ -15,7 +15,7 @@ services:
     container_name: openwebui
     restart: unless-stopped
     environment:
-      - CORS_ALLOW_ORIGIN=https://{$DOMAIN}
+      - CORS_ALLOW_ORIGIN=https://${DOMAIN}
       - DATABASE_TYPE=postgresql
       - DATABASE_USER=${POSTGRES_USER}
       - DATABASE_PASSWORD=${POSTGRES_PASSWORD}
